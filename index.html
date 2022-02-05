@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+    rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Portfolio CV - Fernando Romero</title>
+  </head>
+  <body>
+    <header class="header">
+      <section class="container">
+        <div class="logo"><a href="index.html">FerRom1979</a></div>
+        <button class="menu-btn">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+          >
+            <path d="M24 6h-24v-4h24v4zm0 4h-24v4h24v-4zm0 8h-24v4h24v-4z" />
+          </svg>
+          <svg
+            class="none"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M24 20.188l-8.315-8.209 8.2-8.282-3.697-3.697-8.212 8.318-8.31-8.203-3.666 3.666 8.321 8.24-8.206 8.313 3.666 3.666 8.237-8.318 8.285 8.203z"
+            />
+          </svg>
+        </button>
+        <nav class="menu">
+          <a href="#home">Home</a>
+          <a href="#about">About Me</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#testimonials">Testimonials</a>
+          <a href="#contact">Contact Me</a
+          ><a
+            href="./pdf/Fernando Romero-CV.pdf.pdf"
+            target="_blank"
+            rel="noopener"
+            download="cv.pdf"
+            >Resume</a
+          >
+        </nav>
+      </section>
+    </header>
+
+    <section id="home" class="home">
+      <article
+        class="hero-image"
+        style="
+          --hero-image: url('assets/desktop.jpg');
+          --hero-attachment: fixed;
+        "
+      >
+        <aside
+          class="hero-image-opacity"
+          style="--hero-opacity-color: var(--black-alpha-color)"
+        >
+          <div class="hero-image-content">
+            <h2
+              class="hero-image-title"
+              style="--hero-text-color: var(--white-color)"
+            >
+              Front-End Web <br />
+              Developer
+            </h2>
+            <h6
+              class="hero-image-subtitle"
+              style="--hero-text-color: var(--white-color)"
+            >
+              with passion for learning
+            </h6>
+          </div>
+        </aside>
+      </article>
+    </section>
+
+    <section id="about" class="about section container full-lg-screen">
+      <article class="text-lg-right">
+        <aside class="text-center text-lg-right">
+          <h1>Fernando Romero</h1>
+          <h5>Front End Developer</h5>
+        </aside>
+        <p>
+          I have more than two years work experience in front-end and have a
+          firm knowledge of HTML, CSS and JavaScript language and possess a good
+          knowledge of computer software packages (frameworks and tools) that
+          are used in today’s technology.
+        </p>
+        <p>
+          On a personal level, I am highly-motivated, result oriented,
+          self-driven, hard-working, fast learner and constantly seeking to
+          improve my skills and am fully aware of the latest Front-end
+          Development Tools.
+        </p>
+        <p>
+          In addition to this, I have the ability to adapt to any type of team
+          environment, I am team oriented and get along with others when working
+          in a group setting. I also have the ability to work independently
+          while staying on schedule and meeting those tight deadlines.
+        </p>
+        <div class="text-center text-lg-left">
+          <a
+            href="./pdf/Fernando Romero-CV.pdf.pdf"
+            download="cv.pdf"
+            class="btn"
+            >Download My C.V.
+          </a>
+        </div>
+      </article>
+      <article>
+        <img
+          src="./assets/perfil.jpeg"
+          alt="photo perfil fernando romero"
+          class="grey-scale"
+        />
+      </article>
+      <article>
+        <h2 class="text-center text-lg-left">My Skills</h2>
+        <div class="progress">
+          <p>
+            <b>Front-End Web Developer</b>
+            <b>90%</b>
+          </p>
+          <progress value="90" min="0" max="100"></progress>
+        </div>
+        <div class="progress">
+          <p>
+            <b>Back-End Web Developer</b>
+            <b>70%</b>
+          </p>
+          <progress value="70" min="0" max="100"></progress>
+        </div>
+        <div class="progress">
+          <p>
+            <b>ReactJS</b>
+            <b>80%</b>
+          </p>
+          <progress value="80" min="0" max="100"></progress>
+        </div>
+        <div class="progress">
+          <p>
+            <b>NodeJS</b>
+            <b>72%</b>
+          </p>
+          <progress value="72" min="0" max="100"></progress>
+        </div>
+        <div class="progress">
+          <p>
+            <b>Javascript</b>
+            <b>85%</b>
+          </p>
+          <progress value="85" min="0" max="100"></progress>
+        </div>
+        <div class="progress">
+          <p>
+            <b>HTML</b>
+            <b>95%</b>
+          </p>
+          <progress value="95" min="0" max="100"></progress>
+        </div>
+        <div class="progress">
+          <p>
+            <b>CSS</b>
+            <b>95%</b>
+          </p>
+          <progress value="95" min="0" max="100"></progress>
+        </div>
+      </article>
+    </section>
+
+    <section id="portfolio" class="portfolio section">
+      <div class="container">
+        <h2 class="section-title">My Works</h2>
+        <a href="#work-one" class="portfolio-card">
+          <img src="./assets/movie.jpg" alt="work one" />
+          <aside class="portfolio-card-info">
+            <div>
+              <h3>Weather App</h3>
+              <p>
+                The Film app is a movie app made with react, consuming a rest
+                api and deployed in neftlify.
+              </p>
+            </div>
+          </aside>
+        </a>
+        <a href="#work-two" class="portfolio-card">
+          <img src="./assets/clouds.jpg" alt="work two" />
+          <aside class="portfolio-card-info">
+            <div>
+              <h3>Film App</h3>
+              <p>
+                The Film app is a movie app made with react, consuming a rest
+                api and deployed in neftlify.
+              </p>
+            </div>
+          </aside>
+        </a>
+        <a href="#work-three" class="portfolio-card">
+          <img src="./assets/movie.jpg" alt="work three" />
+          <aside class="portfolio-card-info">
+            <div>
+              <h3>Weather App</h3>
+              <p>
+                The Film app is a movie app made with react, consuming a rest
+                api and deployed in neftlify.
+              </p>
+            </div>
+          </aside>
+        </a>
+        <a href="#work-four" class="portfolio-card">
+          <img src="./assets/clouds.jpg" alt="work four" />
+          <aside class="portfolio-card-info">
+            <div>
+              <h3>Film App</h3>
+              <p>
+                The Film app is a movie app made with react, consuming a rest
+                api and deployed in neftlify.
+              </p>
+            </div>
+          </aside>
+        </a>
+        <a href="#work-five" class="portfolio-card">
+          <img src="./assets/movie.jpg" alt="work five" />
+          <aside class="portfolio-card-info">
+            <div>
+              <h3>Weather App</h3>
+              <p>
+                The Film app is a movie app made with react, consuming a rest
+                api and deployed in neftlify.
+              </p>
+            </div>
+          </aside>
+        </a>
+        <a href="#work-six" class="portfolio-card">
+          <img src="./assets/clouds.jpg" alt="work six" />
+          <aside class="portfolio-card-info">
+            <div>
+              <h3>Film App</h3>
+              <p>
+                The Film app is a movie app made with react, consuming a rest
+                api and deployed in neftlify.
+              </p>
+            </div>
+          </aside>
+        </a>
+      </div>
+    </section>
+
+    <!-- modal -->
+    <article class="modal" id="work-one">
+      <div class="modal-content">
+        <a href="#close" class="modal-close">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm4.151 17.943l-4.143-4.102-4.117 4.159-1.833-1.833 4.104-4.157-4.162-4.119 1.833-1.833 4.155 4.102 4.106-4.16 1.849 1.849-4.1 4.141 4.157 4.104-1.849 1.849z"
+            />
+          </svg>
+        </a>
+        <article class="portfolio-modal">
+          <img src="./assets/movie.jpg" alt="work one" />
+          <div class="portfolio-info">
+            <h3>Nombre del Proyecto 1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <aside class="portfolio-details">
+              <small><b>tegnologia</b></small>
+              <small>react</small>
+              <small><b>tipo</b></small>
+              <small>redux</small>
+              <small><b>otro</b></small>
+              <small>text</small>
+              <small><b>enlaces</b></small>
+              <small>www.fer.com></small>
+            </aside>
+          </div>
+        </article>
+      </div>
+    </article>
+    <article class="modal" id="work-two">
+      <div class="modal-content">
+        <a href="#close" class="modal-close">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm4.151 17.943l-4.143-4.102-4.117 4.159-1.833-1.833 4.104-4.157-4.162-4.119 1.833-1.833 4.155 4.102 4.106-4.16 1.849 1.849-4.1 4.141 4.157 4.104-1.849 1.849z"
+            />
+          </svg>
+        </a>
+        <article class="portfolio-modal">
+          <img src="./assets/movie.jpg" alt="work one" width="200px" />
+          <div class="portfolio-info">
+            <h3>Nombre del Proyecto 2</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perspiciatis tempora esse aspernatur maiores, ad eligendi. Dolorem
+              repudiandae deserunt eum qui, amet, cupiditate animi aut tempora
+              perspiciatis hic assumenda explicabo dolores?
+            </p>
+            <aside class="portfolio-details">
+              <small><b>tegnologia</b></small>
+              <small><b>react</b></small>
+              <small><b>tipo</b></small>
+              <small><b>redux</b></small>
+              <small><b>otro</b></small>
+              <small><b>text</b></small>
+              <small><b>enlaces</b></small>
+              <small><b>www.fer.com</b></small>
+            </aside>
+          </div>
+        </article>
+      </div>
+    </article>
+    <article class="modal" id="work-three">
+      <div class="modal-content">
+        <a href="#close" class="modal-close">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm4.151 17.943l-4.143-4.102-4.117 4.159-1.833-1.833 4.104-4.157-4.162-4.119 1.833-1.833 4.155 4.102 4.106-4.16 1.849 1.849-4.1 4.141 4.157 4.104-1.849 1.849z"
+            />
+          </svg>
+        </a>
+        <article class="portfolio-modal">
+          <img src="./assets/movie.jpg" alt="work one" width="200px" />
+          <div class="portfolio-info">
+            <h3>Nombre del Proyecto 3</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perspiciatis tempora esse aspernatur maiores, ad eligendi. Dolorem
+              repudiandae deserunt eum qui, amet, cupiditate animi aut tempora
+              perspiciatis hic assumenda explicabo dolores?
+            </p>
+            <aside class="portfolio-details">
+              <small><b>tegnologia</b></small>
+              <small><b>react</b></small>
+              <small><b>tipo</b></small>
+              <small><b>redux</b></small>
+              <small><b>otro</b></small>
+              <small><b>text</b></small>
+              <small><b>enlaces</b></small>
+              <small><b>www.fer.com</b></small>
+            </aside>
+          </div>
+        </article>
+      </div>
+    </article>
+    <article class="modal" id="work-four">
+      <div class="modal-content">
+        <a href="#close" class="modal-close">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm4.151 17.943l-4.143-4.102-4.117 4.159-1.833-1.833 4.104-4.157-4.162-4.119 1.833-1.833 4.155 4.102 4.106-4.16 1.849 1.849-4.1 4.141 4.157 4.104-1.849 1.849z"
+            />
+          </svg>
+        </a>
+        <article class="portfolio-modal">
+          <img src="./assets/movie.jpg" alt="work one" width="200px" />
+          <div class="portfolio-info">
+            <h3>Nombre del Proyecto 4</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perspiciatis tempora esse aspernatur maiores, ad eligendi. Dolorem
+              repudiandae deserunt eum qui, amet, cupiditate animi aut tempora
+              perspiciatis hic assumenda explicabo dolores?
+            </p>
+            <aside class="portfolio-details">
+              <small><b>tegnologia</b></small>
+              <small><b>react</b></small>
+              <small><b>tipo</b></small>
+              <small><b>redux</b></small>
+              <small><b>otro</b></small>
+              <small><b>text</b></small>
+              <small><b>enlaces</b></small>
+              <small><b>www.fer.com</b></small>
+            </aside>
+          </div>
+        </article>
+      </div>
+    </article>
+    <article class="modal" id="work-five">
+      <div class="modal-content">
+        <a href="#close" class="modal-close">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm4.151 17.943l-4.143-4.102-4.117 4.159-1.833-1.833 4.104-4.157-4.162-4.119 1.833-1.833 4.155 4.102 4.106-4.16 1.849 1.849-4.1 4.141 4.157 4.104-1.849 1.849z"
+            />
+          </svg>
+        </a>
+        <article class="portfolio-modal">
+          <img src="./assets/movie.jpg" alt="work one" width="200px" />
+          <div class="portfolio-info">
+            <h3>Nombre del Proyecto 5</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perspiciatis tempora esse aspernatur maiores, ad eligendi. Dolorem
+              repudiandae deserunt eum qui, amet, cupiditate animi aut tempora
+              perspiciatis hic assumenda explicabo dolores?
+            </p>
+            <aside class="portfolio-details">
+              <small><b>tegnologia</b></small>
+              <small><b>react</b></small>
+              <small><b>tipo</b></small>
+              <small><b>redux</b></small>
+              <small><b>otro</b></small>
+              <small><b>text</b></small>
+              <small><b>enlaces</b></small>
+              <small><b>www.fer.com</b></small>
+            </aside>
+          </div>
+        </article>
+      </div>
+    </article>
+    <article class="modal" id="work-six">
+      <div class="modal-content">
+        <a href="#close" class="modal-close">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm4.151 17.943l-4.143-4.102-4.117 4.159-1.833-1.833 4.104-4.157-4.162-4.119 1.833-1.833 4.155 4.102 4.106-4.16 1.849 1.849-4.1 4.141 4.157 4.104-1.849 1.849z"
+            />
+          </svg>
+        </a>
+        <article class="portfolio-modal">
+          <img src="./assets/movie.jpg" alt="work one" width="200px" />
+          <div class="portfolio-info">
+            <h3>Nombre del Proyecto 6</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perspiciatis tempora esse aspernatur maiores, ad eligendi. Dolorem
+              repudiandae deserunt eum qui, amet, cupiditate animi aut tempora
+              perspiciatis hic assumenda explicabo dolores?
+            </p>
+            <aside class="portfolio-details">
+              <small><b>tegnologia</b></small>
+              <small><b>react</b></small>
+              <small><b>tipo</b></small>
+              <small><b>redux</b></small>
+              <small><b>otro</b></small>
+              <small><b>text</b></small>
+              <small><b>enlaces</b></small>
+              <small><b>www.fer.com</b></small>
+            </aside>
+          </div>
+        </article>
+      </div>
+    </article>
+
+    <section id="testimonials" class="testimonials">
+      <article
+        class="hero-image"
+        style="
+          --hero-image: url('assets/developers.jpg');
+          --hero-attachment: scroll;
+        "
+      >
+        <aside
+          class="hero-image-opacity"
+          style="--hero-opacity-color: var(--white-alpha-color)"
+        >
+          <div class="container">
+            <h2 class="section-title">Other developers say about me</h2>
+            <article
+              class="carousel"
+              style="--carousel-bg-color: var(--white-alpha-color)"
+            >
+              <input type="radio" name="slides" id="slide-one" checked />
+              <input type="radio" name="slides" id="slide-two" />
+              <input type="radio" name="slides" id="slide-three" />
+              <input type="radio" name="slides" id="slide-four" />
+
+              <ul class="slides">
+                <li class="slide">
+                  <img
+                    src="./assets//perfil.jpeg"
+                    alt="perfil"
+                    class="avatar"
+                  />
+                  <blockquote>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ducimus, illo! Voluptates vero eum necessitatibus
+                    reprehenderit fugit sapiente ipsum atque alias maiores
+                    dolorem corporis, molestias, modi error vitae doloremque
+                    omnis magnam?
+                  </blockquote>
+                  <h3 class="text-first-color">Fernando Romero</h3>
+                  <h6>Front End Developer</h6>
+                </li>
+                <li class="slide">
+                  <img
+                    src="./assets//perfil.jpeg"
+                    alt="perfil"
+                    class="avatar"
+                  />
+                  <blockquote>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ducimus, illo! Voluptates vero eum necessitatibus
+                    reprehenderit fugit sapiente ipsum atque alias maiores
+                    dolorem corporis, molestias, modi error vitae doloremque
+                    omnis magnam?
+                  </blockquote>
+                  <h3 class="text-first-color">Fernando Romero</h3>
+                  <h6>Front End Developer</h6>
+                </li>
+                <li class="slide">
+                  <img
+                    src="./assets//perfil.jpeg"
+                    alt="perfil"
+                    class="avatar"
+                  />
+                  <blockquote>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ducimus, illo! Voluptates vero eum necessitatibus
+                    reprehenderit fugit sapiente ipsum atque alias maiores
+                    dolorem corporis, molestias, modi error vitae doloremque
+                    omnis magnam?
+                  </blockquote>
+                  <h3 class="text-first-color">Fernando Romero</h3>
+                  <h6>Front End Developer</h6>
+                </li>
+                <li class="slide">
+                  <img
+                    src="./assets//perfil.jpeg"
+                    alt="perfil"
+                    class="avatar"
+                  />
+                  <blockquote>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ducimus, illo! Voluptates vero eum necessitatibus
+                    reprehenderit fugit sapiente ipsum atque alias maiores
+                    dolorem corporis, molestias, modi error vitae doloremque
+                    omnis magnam?
+                  </blockquote>
+                  <h3 class="text-first-color">Fernando Romero</h3>
+                  <h6>Front End Developer</h6>
+                </li>
+              </ul>
+              <aside class="slides-nav">
+                <label for="slide-one" id="dot-one"></label>
+                <label for="slide-two" id="dot-two"></label>
+                <label for="slide-three" id="dot-three"></label>
+                <label for="slide-four" id="dot-four"></label>
+              </aside>
+            </article>
+          </div>
+          <div class="hero-image-content"></div>
+        </aside>
+      </article>
+    </section>
+
+    <section id="contact" class="contact section">
+      <div class="container">
+        <h2 class="section-title">Contact Me</h2>
+        <article class="contact-cards">
+          <aside class="contact-card box-shadow-1">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M20 7.093l-3-3v-2.093h3v5.093zm4 5.907h-3v10h-18v-10h-3l12-12 12 12zm-10 2h-4v6h4v-6z"
+                fill="#d90062"/>
+            </svg>
+            <h5>LOCATION</h5>
+            <small>San martin,Bs As,Argentina</small>
+          </aside>
+          <aside class="contact-card box-shadow-1">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 12.713l-11.985-9.713h23.971l-11.986 9.713zm-5.425-1.822l-6.575-5.329v12.501l6.575-7.172zm10.85 0l6.575 7.172v-12.501l-6.575 5.329zm-1.557 1.261l-3.868 3.135-3.868-3.135-8.11 8.848h23.956l-8.11-8.848z "
+                fill="#d90062"/>
+            </svg>
+            <h5>EMAIL</h5>
+            <small><a href="mailto:fernando_0135@hotmail.com">fernando_0135@hotmail.com</a></small>
+          </aside>
+          <aside class="contact-card box-shadow-1">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20 22.621l-3.521-6.795c-.008.004-1.974.97-2.064 1.011-2.24 1.086-6.799-7.82-4.609-8.994l2.083-1.026-3.493-6.817-2.106 1.039c-7.202 3.755 4.233 25.982 11.6 22.615.121-.055 2.102-1.029 2.11-1.033z" fill="#d90062"/></svg>
+            </svg>
+            <h5>PHONE</h5>
+            <small><a href="tel:+541160300281">(+54)1160300281</a></small>
+          </aside>
+          <aside class="contact-card box-shadow-1">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M22.548 9l.452-2h-5.364l1.364-6h-2l-1.364 6h-5l1.364-6h-2l-1.364 6h-6.184l-.452 2h6.182l-1.364 6h-5.36l-.458 2h5.364l-1.364 6h2l1.364-6h5l-1.364 6h2l1.364-6h6.185l.451-2h-6.182l1.364-6h5.366zm-8.73 6h-5l1.364-6h5l-1.364 6z" fill="#d90062"/></svg>
+            <h5>SOCIAL NETWORKS </h5>
+            <small class="social-media">
+              <a href="https://github.com/FerRom1979" target="_blank" rel="noopener noreferrer">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+              </a>
+              <a href="https://www.linkedin.com/in/fernando-romero-1bb3a0198/" target="_blank" rel="noopener noreferrer">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+              </a>
+              <a href="mailto:feramago1979@gmail.com">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M13.718 10.528c0 .792-.268 1.829-.684 2.642-1.009 1.98-3.063 1.967-3.063-.14 0-.786.27-1.799.687-2.58 1.021-1.925 3.06-1.624 3.06.078zm10.282 1.472c0 6.627-5.373 12-12 12s-12-5.373-12-12 5.373-12 12-12 12 5.373 12 12zm-5-1.194c0-3.246-2.631-5.601-6.256-5.601-4.967 0-7.744 3.149-7.744 7.073 0 3.672 2.467 6.517 7.024 6.517 2.52 0 4.124-.726 5.122-1.288l-.687-.991c-1.022.593-2.251 1.136-4.256 1.136-3.429 0-5.733-2.199-5.733-5.473 0-5.714 6.401-6.758 9.214-5.071 2.624 1.642 2.524 5.578.582 7.083-1.034.826-2.199.799-1.821-.756 0 0 1.212-4.489 1.354-4.975h-1.364l-.271.952c-.278-.785-.943-1.295-1.911-1.295-2.018 0-3.722 2.19-3.722 4.783 0 1.73.913 2.804 2.38 2.804 1.283 0 1.95-.726 2.364-1.373-.3 2.898 5.725 1.557 5.725-3.525z"/></svg>             </a>
+            </small>
+          </aside>
+        </article>
+        <form class="contact-form box-shadow-1">
+          <input type="text" name="name" placeholder="Enter your name *" title="The name only accepts letters and blanks" patterm="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
+          <input type="email" name="email" placeholder="Enter your email *" title="Wrong email" patterm="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$" required>
+          <textarea name="comments"  cols="50" rows="10" placeholder="Leave me your comment * " required></textarea>
+          <div class="contact-form-loader text-center none">
+            <img src="./assets/loader.svg" alt="loader">
+          </div>
+          <input type="submit" value="SEND MESSAGE" class="btn">
+        </form>
+        <article id="thansk" class="modal">
+          <div class="modal-content">
+            <article class="contact-form-response">
+              <h3>Thank you!<br>for your comments </h3>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm5.507 13.941c-1.512 1.195-3.174 1.931-5.506 1.931-2.334 0-3.996-.736-5.508-1.931l-.493.493c1.127 1.72 3.2 3.566 6.001 3.566 2.8 0 4.872-1.846 5.999-3.566l-.493-.493zm-9.007-5.941c-.828 0-1.5.671-1.5 1.5s.672 1.5 1.5 1.5 1.5-.671 1.5-1.5-.672-1.5-1.5-1.5zm7 0c-.828 0-1.5.671-1.5 1.5s.672 1.5 1.5 1.5 1.5-.671 1.5-1.5-.672-1.5-1.5-1.5z"/></svg>
+            </article>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <footer id="footer" class="footer">
+      <small>Copyright ©2022 My Portfolio by Fernando Romero</small>
+    </footer>
+    <script src="./app.js"></script>
+  </body>
+</html>
